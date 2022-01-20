@@ -7,7 +7,7 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 const App = () => {
 
-    const [url, setUrl] =  React.useState("/pdf-open-parameters.pdf");
+    const [url, setUrl] =  React.useState("https://ys-sh.github.io/pdf-viewer-starter/test.pdf");
     
     const onChange = (e) => {
         const files = e.target.files;
