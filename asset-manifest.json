@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pdf-viewer-starter/static/css/main.a3aebc00.css",
+    "main.js": "/pdf-viewer-starter/static/js/main.bf19808e.js",
+    "index.html": "/pdf-viewer-starter/index.html",
+    "main.a3aebc00.css.map": "/pdf-viewer-starter/static/css/main.a3aebc00.css.map",
+    "main.bf19808e.js.map": "/pdf-viewer-starter/static/js/main.bf19808e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3aebc00.css",
+    "static/js/main.bf19808e.js"
+  ]
+}
