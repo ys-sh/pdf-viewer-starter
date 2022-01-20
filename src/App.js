@@ -7,17 +7,12 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 const App = () => {
 
+    // eslint-disable-next-line no-unused-vars
     const [url, setUrl] =  React.useState("https://ys-sh.github.io/pdf-viewer-starter/test.pdf");
     
-    const onChange = (e) => {
-        const files = e.target.files;
-        files.length > 0 && setUrl(URL.createObjectURL(files[0]));
-    };
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
-    console.log(url);
     return (
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.12.313/build/pdf.worker.js">
-            <input type="file" accept=".pdf" onChange={onChange} />
             <div
                 style={{
                     height: '750px',
