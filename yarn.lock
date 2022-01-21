@@ -1359,6 +1359,11 @@
   dependencies:
     "@react-pdf-viewer/core" "3.0.0"
 
+"@react-pdf-viewer/locales@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@react-pdf-viewer/locales/-/locales-1.0.0.tgz#7ff75c3abe516ac8cd2927df1c0f15389465b727"
+  integrity sha512-Q4ZGs4gQKFUk85hiDdPIEb4jHPTUdkPj9KZCZWpQZdKC37mkh/4EBZqMEUaYtm9lGuIEK3dE7oLAz/vxEMgvzg==
+
 "@react-pdf-viewer/open@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@react-pdf-viewer/open/-/open-3.0.0.tgz#f52a4b78a42fc418ed8183ad6ddfd768f8f45d6b"
