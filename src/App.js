@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Viewer, Worker } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
-import jp_JP from '@react-pdf-viewer/locales/lib/jp_JP.json';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
+import jp_JP from '@react-pdf-viewer/locales/lib/jp_JP.json';
 
 const App = () => {
 
@@ -25,9 +25,8 @@ const App = () => {
                 <Viewer
                     fileUrl={url}
                     plugins={[defaultLayoutPluginInstance]}
-                    localization={jp_JP}
                     characterMap={cMap}
-
+                    localization={jp_JP}
                 />
             </div>
         </Worker>
