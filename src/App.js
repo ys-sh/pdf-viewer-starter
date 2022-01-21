@@ -11,7 +11,7 @@ const App = () => {
     const [url, setUrl] =  React.useState("https://ys-sh.github.io/pdf-viewer-starter/test.pdf");
     
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
-    const cMap = { url: "https://ys-sh.github.io/cmaps/", isCompressed: true }
+    const cMap = { url: "https://ys-sh.github.io/pdf-viewer-starter/cmaps/", isCompressed: true }
     return (
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.12.313/build/pdf.worker.js">
             <div
